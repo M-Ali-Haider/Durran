@@ -1,0 +1,16 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+li{
+    list-style: none;
+}
+main{
+    position: relative;
+    top: 10%;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
