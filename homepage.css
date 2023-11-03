@@ -2,7 +2,6 @@
     box-sizing: border-box;
     height: 70%;
     width: 100%;
-    border: 3px solid black;
 }
 .swiper{
     width: 100%;
@@ -11,4 +10,9 @@
 .swiper-slide img{
     object-position: center center;
     object-fit: cover;
+}
+@media (max-width:550px){
+    .homepage-first-section{
+        height: 100%;
+    }
 }

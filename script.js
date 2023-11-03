@@ -23,10 +23,7 @@ const swiper = new Swiper('.swiper', {
     spaceBetween:'0',
     pagination: {
       el: '.swiper-pagination',
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      clickable:'true',
     },
     scrollbar: {
       el: '.swiper-scrollbar',
