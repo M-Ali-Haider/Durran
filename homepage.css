@@ -1,6 +1,14 @@
 .homepage-first-section{
     box-sizing: border-box;
-    height: 60%;
+    height: 70%;
     width: 100%;
     border: 3px solid black;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img{
+    object-position: center center;
+    object-fit: cover;
 }

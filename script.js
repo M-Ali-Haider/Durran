@@ -15,3 +15,20 @@ hbm.addEventListener('click',()=>{
     }
     isHbmOpen=!isHbmOpen;
 })
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay:true,
+    effect:'fade',
+    spaceBetween:'0',
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
