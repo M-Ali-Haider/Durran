@@ -21,6 +21,10 @@ const swiper = new Swiper('.swiper', {
     autoplay:true,
     effect:'fade',
     spaceBetween:'0',
+    pagination: {
+      el: '.swiper-pagination',
+      clickable:'true',
+    },
     scrollbar: {
       el: '.swiper-scrollbar',
     },
