@@ -1,4 +1,5 @@
 .homepage-first-section{
+    position: relative;
     box-sizing: border-box;
     height: 70%;
     width: 100%;
@@ -11,6 +12,7 @@
     object-position: center center;
     object-fit: cover;
 }
+
 @media (max-width:550px){
     .homepage-first-section{
         height: 90%;
