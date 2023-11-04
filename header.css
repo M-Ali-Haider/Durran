@@ -85,10 +85,15 @@ header{
     background-color: white;
 }
 .mobile-header-extend{
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
     display: none;
     background-color: #83050F;
     border-top: 1px solid white;
     box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.5);
+    z-index: 20;
 }
 .mbe-helper{
     height: 100%;
