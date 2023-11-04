@@ -189,6 +189,7 @@
 .map-div iframe{
     width: 100%;
 }
+
 @media (max-width:1260px){
     .homepage-fifth-section{
         flex-direction: column;
