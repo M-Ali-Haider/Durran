@@ -48,6 +48,12 @@
     justify-content: end;
     padding-bottom: 50px;
 }
+.history-container{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 50px;
+    min-height: 100%;
+}
 .about-helper{
     width: 50%;
 }
