@@ -101,6 +101,33 @@
     font-style: italic;
     font-size: 20px;
 }
+.homepage-fourth-section{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.fourth-heading{
+    font-weight: bold;
+    font-size: 32px;
+}
+.fourth-following{
+    width: 90%;
+    text-align: center;
+}
+.fourth-services{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.fourth-services-unit{
+    flex: 1;
+    min-width: 250px;
+}
+
 @media (max-width:1260px){
     .homepage-third-section{
         flex-direction: column;
