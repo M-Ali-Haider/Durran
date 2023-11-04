@@ -35,4 +35,7 @@ footer{
         flex-direction: column;
         gap: 10px;
     }
+    footer{
+        font-size: 14px;
+    }
 }
