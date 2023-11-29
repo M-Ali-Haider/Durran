@@ -103,6 +103,21 @@
     height: 100%;
     object-position: center center;
 }
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contact-helper{
+    width: 40%;
+    padding-bottom: 50px;
+}
+.contact-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
 @media (max-width:1361px) {
     .p-images{
         display: none;
