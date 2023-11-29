@@ -8,7 +8,8 @@ header{
     left: 0;
     right: 0;
     top: 0;
-    z-index: 20;
+    z-index: 21;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .header-helper{
     width: 96%;
@@ -91,7 +92,6 @@ header{
     right: 0;
     display: none;
     background-color: #83050F;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
     z-index: 20;
 }
 .mbe-helper{
