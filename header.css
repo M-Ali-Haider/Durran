@@ -9,7 +9,6 @@ header{
     right: 0;
     top: 0;
     z-index: 21;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .header-helper{
     width: 96%;
@@ -87,7 +86,7 @@ header{
 }
 .mobile-header-extend{
     position: fixed;
-    top: 10%;
+    top: 9.5%;
     left: 0;
     right: 0;
     display: none;
@@ -111,6 +110,14 @@ header{
 }
 .mbe-helper li:hover{
     background-color: #5A0307;
+}
+
+.mbe-helper li:nth-child(9){
+    border-bottom: none;
+}
+.mbe-helper a{
+    width: 100%;
+    text-align: center;
 }
 
 footer{
