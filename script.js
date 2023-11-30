@@ -4,12 +4,12 @@ let isHbmOpen=false;
 
 hbm.addEventListener('click',()=>{
     if(isHbmOpen){
-        hbm.style.backgroundColor='#83050F';
+        hbm.style.backgroundColor='var(--main-color)';
         mbe.style.height='0%';
         document.body.style.overflow = 'auto';
     }
     else{
-        hbm.style.backgroundColor='#5A0307';
+        hbm.style.backgroundColor='var(--header-button-hover)';
         mbe.style.height='50%';
         document.body.style.overflow='hidden';
     }

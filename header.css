@@ -1,5 +1,9 @@
+:root{
+    --main-color:#284387;
+    --header-button-hover:#15254e;
+}
 header{
-    background-color: #83050F;
+    background-color: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +94,7 @@ header{
     left: 0;
     right: 0;
     display: none;
-    background-color: #83050F;
+    background-color: var(--main-color);
     z-index: 20;
 }
 .mbe-helper{
@@ -109,7 +113,7 @@ header{
     border-bottom: 1px solid white;
 }
 .mbe-helper li:hover{
-    background-color: #5A0307;
+    background-color: var(--header-button-hover);
 }
 
 .mbe-helper li:nth-child(9){
@@ -121,7 +125,7 @@ header{
 }
 
 footer{
-    background-color: #83050F;
+    background-color: var(--main-color);
     display: flex;
     align-items: center;
     color: white;
@@ -150,6 +154,7 @@ footer{
 .footer-socials svg:hover{
     fill: white;
 }
+
 
 @media (max-width:550px){
     .footer-helper{
