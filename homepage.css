@@ -198,6 +198,7 @@
     width: 100%;
 }
 
+
 @media (max-width:1260px){
     .homepage-fifth-section{
         flex-direction: column;
@@ -243,6 +244,14 @@
     }
     .homepage-second-section{
         height:auto;
+    }
+    .homepage-second-section-two{
+        width: 90%;
+        margin-top: 40px;
+        padding: 5%;
+    }
+    .homepage-second-section-two h1{
+        font-size: 25px;
     }
     .project-unit{
         margin-top: 20px;
