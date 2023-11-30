@@ -94,6 +94,7 @@
 .third-right img{
     width: 100%;
     height: 100%;
+    min-height: 250px;
     object-fit: cover;
     object-position: center center;
 }
@@ -112,10 +113,12 @@
 .fourth-heading{
     font-weight: bold;
     font-size: 32px;
+    padding-bottom: 10px;
 }
 .fourth-following{
     width: 90%;
     text-align: center;
+    padding-bottom: 20px;
 }
 .fourth-services{
     display: flex;
@@ -132,6 +135,8 @@
     background-color: #83050F;
     color: white;
     gap: 2%;
+    width: 100%;
+    min-height: 55%;
 }
 .fifth-image{
     width: 50%;
@@ -142,6 +147,7 @@
 .fifth-image img{
     width: 100%;
     height: 100%;
+    min-height: 250px;
     object-fit: cover;
     object-position: center center; 
 }
@@ -151,6 +157,8 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 .fifth-heading{
     font-size: 28px;
